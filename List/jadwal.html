@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Jadwal</title>
+    <link rel="stylesheet" href="css/jadwal.css">
+</head>
+<body>
+    <div class="sideBar-container">
+        <img class="icon-ict" src="resources/icon/icon_ict.png" alt="">
+        <div class="layar-abuabu"></div>
+        <div id="layar-merah" class="layar-merah"></div>
+        <div class="icon-container">
+            <img onclick="changcePotitionLayarMerah(1)" class="icon" src="resources/icon/sidebar_qr_code_icon 1.png"
+                alt="">
+            <img onclick="changcePotitionLayarMerah(2)" class="icon" src="resources/icon/sidebar_marquee_text_icon.png"
+                alt="">
+            <img onclick="changcePotitionLayarMerah(3)" class="icon"  src="resources/icon/sidebar_video_icon.png" alt="">
+            <img onclick="changcePotitionLayarMerah(4)" class="icon" src="resources/icon/sidebar_jadwal_icon.png"
+                alt="">
+        </div>
+    </div>
+
+    <div class="input-jadwal">
+        
+        <span class="jadwal-list">Input Jadwal</span>
+    </div>
+
+    <div class="tabel-deskripsi">
+    <div class="title-input">
+        <input type="text" placeholder="title..." class="title-list">
+    </div>
+    <div class="deskripsi-input">
+        <input type="text" placeholder="deskripsi..." class="deskripsi-list">
+    </div>
+
+    </div>
+
+    <div class="tabel-waktu">
+        <div class="kolom-waktu">
+            <span class="list-jam">jam</span>
+        </div>
+        <div class="kolom-menit">
+            <span class="list-menit">menit</span>
+        </div>
+        <div class="kolom-tanggal">
+            <span class="list-tanggal">tanggal</span>
+        </div>
+    </div>
+
+    <span class="text-choose">Choose Icon : </span>
+
+    <button class="choose-icon">
+        <div class="plus">
+            <svg width="131" height="131" viewBox="0 0 131 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M97.926 70.7243H70.7243V97.926C70.7243 100.918 68.2762 103.366 65.284 103.366C62.2918 103.366 59.8436 100.918 59.8436 97.926V70.7243H32.642C29.6498 70.7243 27.2017 68.2762 27.2017 65.284C27.2017 62.2918 29.6498 59.8436 32.642 59.8436H59.8436V32.642C59.8436 29.6498 62.2918 27.2017 65.284 27.2017C68.2762 27.2017 70.7243 29.6498 70.7243 32.642V59.8436H97.926C100.918 59.8436 103.366 62.2918 103.366 65.284C103.366 68.2762 100.918 70.7243 97.926 70.7243Z" fill="black"/>
+              </svg>
+        </div>
+    </button>
+
+       <button class="submit-btn">
+            <span class="submit-text">submit</span>
+       </button>
+   
+
+</body>
+</html>
